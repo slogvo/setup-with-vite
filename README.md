@@ -11,9 +11,11 @@ mkdir my-react-app
 ```
 
 ### 3. Di chuyển vào thư mục mới và khởi tạo một dự án npm:
+
 ```javascript
 cd my-react-app
 ```
+
 ```javascript
 npm init -y
 ```
@@ -25,7 +27,8 @@ npm install vite react react-dom
 ```
 
 ### 5.Tạo một file index.html trong thư mục gốc của dự án và thêm nội dung sau:
-~~~javascript
+
+```javascript
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,18 +40,19 @@ npm install vite react react-dom
     <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>
-~~~
+```
+
 ### 6. Tạo một thư mục mới có tên là src trong thư mục gốc của dự án và tạo một file có tên là index.jsx trong đó:
 
 ```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 const App = () => {
-return <h1>Hello, World!</h1>;
+  return <h1>Hello, World!</h1>;
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById("root"));
 ```
 
 ### 7. Mở terminal và chạy lệnh sau để khởi chạy dự án của bạn:
@@ -62,25 +66,24 @@ npx vite
 # Dưới đây là một số cấu hình thường được sử dụng trong vite.config.js:
 
 ```javascript
-import { defineConfig } from 'vite';
-import reactRefresh from '@vitejs/plugin-react-refresh';
+import { defineConfig } from "vite";
+import reactRefresh from "@vitejs/plugin-react-refresh";
 
 export default defineConfig({
-plugins: [reactRefresh()],
-server: {
-port: 3000, // Cổng mặc định của server
-open: true, // Tự động mở trình duyệt khi khởi động server
-},
-build: {
-outDir: 'dist', // Thư mục đầu ra khi build
-sourcemap: true, // Tạo sourcemap khi build
-minify: 'terser', // Sử dụng Terser để nén code
-},
-optimizeDeps: {
-include: ['react', 'react-dom'], // Các package sẽ được tối ưu hóa
-},
+  plugins: [reactRefresh()],
+  server: {
+    port: 3000, // Cổng mặc định của server
+    open: true, // Tự động mở trình duyệt khi khởi động server
+  },
+  build: {
+    outDir: "dist", // Thư mục đầu ra khi build
+    sourcemap: true, // Tạo sourcemap khi build
+    minify: "terser", // Sử dụng Terser để nén code
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom"], // Các package sẽ được tối ưu hóa
+  },
 });
-
 ```
 
 # Cấu hình TailwindCSS
@@ -101,10 +104,7 @@ npm install -D tailwindcss postcss autoprefixer
 
 ```javascript
 module.exports = {
-plugins: [
-require('tailwindcss'),
-require('autoprefixer'),
-],
+  plugins: [require("tailwindcss"), require("autoprefixer")],
 };
 ```
 
@@ -114,13 +114,13 @@ require('autoprefixer'),
 
 ```javascript
 module.exports = {
-mode: 'jit',
-purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-theme: {
-extend: {},
-},
-variants: {},
-plugins: [],
+  mode: "jit",
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
 };
 ```
 
@@ -149,6 +149,7 @@ plugins: [require('tailwindcss'), require('autoprefixer')],
 },
 ...
 ```
+
 Trong đó, css.postcss.plugins được sử dụng để cấu hình PostCSS và bao gồm Tailwind CSS và Autoprefixer.
 
 Sau khi hoàn thành các bước trên, bạn đã cài đặt và sử dụng Tailwind CSS với dự án Vitejs của mình.
