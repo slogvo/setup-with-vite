@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/86196042/229306137-39955f86-026b-4ad7-829e-be0d6917ee2e.png" alt="Mô tả hình ảnh" height="300">
 
 <span style="color: red;">Để khởi tạo một dự án ReactJS với Vite, bạn có thể clone template trên về hoặc có thể tự tạo cho mình một dự án ViteJS theo các bước dưới đây</span>
+<span style="color: red;">Note:</span> Make sure you have Node.js and npm installed on your machine.
 
 # THIẾT LẬP DỰ ÁN VỚI VITEJS
 
