@@ -2,12 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles/styles.css";
 import "./styles/index.css";
-import Counter from "./components/Counter";
+import ExampleComponent from "./components/ExampleComponent";
+// import Counter from "./components/Counter";
 
 const App = () => {
   return (
     <div>
-      <Counter></Counter>
+      <ExampleComponent name={"Long"}></ExampleComponent>
     </div>
   );
 };
