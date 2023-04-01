@@ -19,7 +19,7 @@ npm install vite react react-dom
 
 ### 5.Tạo một file index.html trong thư mục gốc của dự án và thêm nội dung sau:
 
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -29,7 +29,7 @@ npm install vite react react-dom
     <div id="root"></div>
     <script type="module" src="/src/index.jsx"></script>
   </body>
-</html>
+</html>`
 
 ### 6. Tạo một thư mục mới có tên là src trong thư mục gốc của dự án và tạo một file có tên là index.jsx trong đó:
 
