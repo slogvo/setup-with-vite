@@ -6,12 +6,17 @@
 
 ### 2. Mở terminal và tạo một thư mục mới cho dự án của bạn:
 
+```javascript
 mkdir my-react-app
+```
 
 ### 3. Di chuyển vào thư mục mới và khởi tạo một dự án npm:
-
+```javascript
 cd my-react-app
+```
+```javascript
 npm init -y
+```
 
 ### 4. Cài đặt Vite và ReactJS:
 
