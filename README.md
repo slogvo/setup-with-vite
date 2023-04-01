@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/86196042/229306137-39955f86-026b-4ad7-829e-be0d6917ee2e.png" alt="Mô tả hình ảnh" width="500" height="300">
+<img src="https://user-images.githubusercontent.com/86196042/229306137-39955f86-026b-4ad7-829e-be0d6917ee2e.png" alt="Mô tả hình ảnh" height="300">
 
 # Để khởi tạo một dự án ReactJS với Vite, làm theo các bước sau:
 
