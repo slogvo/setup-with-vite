@@ -1,0 +1,4 @@
+# Ignore vite cache and output directories
+.cache/
+dist/
+node_modules/
