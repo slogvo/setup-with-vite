@@ -2,22 +2,22 @@
 
 # Để khởi tạo một dự án ReactJS với Vite, làm theo các bước sau:
 
-## Đảm bảo rằng bạn đã cài đặt Node.js và npm trên máy tính của mình.
+### 1. Đảm bảo rằng bạn đã cài đặt Node.js và npm trên máy tính của mình.
 
-## Mở terminal và tạo một thư mục mới cho dự án của bạn:
+### 2. Mở terminal và tạo một thư mục mới cho dự án của bạn:
 
 mkdir my-react-app
 
-## Di chuyển vào thư mục mới và khởi tạo một dự án npm:
+### 3. Di chuyển vào thư mục mới và khởi tạo một dự án npm:
 
 cd my-react-app
 npm init -y
 
-## Cài đặt Vite và ReactJS:
+### 4. Cài đặt Vite và ReactJS:
 
 npm install vite react react-dom
 
-## Tạo một file index.html trong thư mục gốc của dự án và thêm nội dung sau:
+### 5.Tạo một file index.html trong thư mục gốc của dự án và thêm nội dung sau:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +31,7 @@ npm install vite react react-dom
   </body>
 </html>
 
-## Tạo một thư mục mới có tên là src trong thư mục gốc của dự án và tạo một file có tên là index.jsx trong đó:
+### 6. Tạo một thư mục mới có tên là src trong thư mục gốc của dự án và tạo một file có tên là index.jsx trong đó:
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -42,11 +42,11 @@ return <h1>Hello, World!</h1>;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
-## Mở terminal và chạy lệnh sau để khởi chạy dự án của bạn:
+### 7. Mở terminal và chạy lệnh sau để khởi chạy dự án của bạn:
 
 npx vite
 
-## Mở trình duyệt của bạn và truy cập địa chỉ mà Vite đề xuất
+### 8. Mở trình duyệt của bạn và truy cập địa chỉ mà Vite đề xuất
 
 # Dưới đây là một số cấu hình thường được sử dụng trong vite.config.js:
 
