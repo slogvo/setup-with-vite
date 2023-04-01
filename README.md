@@ -65,7 +65,7 @@ npx vite
 
 ### 8. Mở trình duyệt của bạn và truy cập địa chỉ mà Vite đề xuất
 
-### Lưu ý: 
+### ***Lưu ý: 
 Nếu bạn đang code dự án với Typescipt thì cần cài đặt tệp khai báo cho React bằng lệnh: 
 ```javascript
 npm install --save-dev @types/react. 
