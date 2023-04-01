@@ -1,6 +1,8 @@
 <img src="https://user-images.githubusercontent.com/86196042/229306137-39955f86-026b-4ad7-829e-be0d6917ee2e.png" alt="Mô tả hình ảnh" height="300">
 
-# Để khởi tạo một dự án ReactJS với Vite, làm theo các bước sau:
+# Để khởi tạo một dự án ReactJS với Vite, bạn có thể clone template trên về hoặc có thể tự tạo cho mình một dự án ViteJS theo các bước dưới đây
+
+# THIẾT LẬP DỰ ÁN VỚI VITEJS
 
 ### 1. Đảm bảo rằng bạn đã cài đặt Node.js và npm trên máy tính của mình.
 
