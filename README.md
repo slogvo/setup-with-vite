@@ -30,6 +30,7 @@ npm install vite react react-dom
     <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>
+.
 
 ### 6. Tạo một thư mục mới có tên là src trong thư mục gốc của dự án và tạo một file có tên là index.jsx trong đó:
 
