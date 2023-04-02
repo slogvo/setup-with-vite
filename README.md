@@ -68,7 +68,7 @@ npx vite
 # ***Lưu ý: 
 Nếu bạn đang code dự án với Typescipt thì cần cài đặt tệp khai báo cho React bằng lệnh: 
 ```javascript
-npm install --save-dev @types/react. 
+npm install --save-dev @types/react
 ```
 Đây là một package chứa các tệp khai báo TypeScript cho các thư viện JavaScript phổ biến, bao gồm React.
 
